@@ -1,0 +1,7 @@
+
+#06/04/17
+
+1. ls --> For listing directories 
+      -a -->  For listing .dot file which means Hidden directory
+
+
