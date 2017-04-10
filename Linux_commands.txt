@@ -18,6 +18,15 @@
 	eg. home:/success/one/$ cd ..
 		home:/success/$
 
-5.cd --> To return to home.
+5. cd --> To return to home.
 	eg. home:/success/one/$ cd
 		home:$
+
+6. ~ --> Its point-out the user home directory
+         e.g cd ~/test
+         
+         Above command equal to "cd /home/username/test"
+
+
+              
+            
