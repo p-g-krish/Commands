@@ -5,3 +5,18 @@
       -a -->  For listing .dot file which means Hidden directory
 
 2.mkdir --> To create a folder(Directory).
+
+#10/04/17
+
+3. cd --> for change directory i.e if u are creating a folder named as success,.. to get into that folder use cd success.. Then ur present directory will be success.
+	eg: home:/ $mkdir success
+		home:/ $cd success
+		home:/success $
+
+4. cd .. --->To return previous directory..
+	eg. home:/success/one/$ cd ..
+		home:/success/$
+
+5.cd --> To return to home.
+	eg. home:/success/one/$ cd
+		home:$
