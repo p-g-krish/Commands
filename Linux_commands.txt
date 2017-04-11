@@ -27,6 +27,11 @@
          
          Above command equal to "cd /home/username/test"
 
+7. cut -->To cut the particular field from stdout of Terminal
+
+          Example: From the Real time Testing
+              <cmd> git reflog|cut -d' ' -f1 <cmd>
+
 
               
             
