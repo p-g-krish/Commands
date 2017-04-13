@@ -33,5 +33,15 @@
               <cmd> git reflog|cut -d' ' -f1 <cmd>
 
 
+#13/04/17.
+
+8. If ur system stuck means please press control+alt+f1.
+	Then a black screen will display in that enter ur user_name and Password.
+	And then enter the command <cmd> top </cmd>
+	This displays the s/w that occupies more space in ur system.
+	Then give the cmd  <cmd> pkill firefox </cmd>
+	Or <cmd> pkill chrome </cmd>
+
+
               
             
