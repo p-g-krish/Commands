@@ -34,4 +34,10 @@
 
 
               
+#13/04/17
+
+
+8.To get the Public ip in Terminal
+
+               <cmd> curl ifconfig.co </cmd>
             
