@@ -51,4 +51,13 @@
 				eg.touch one
 				   touch one.txt
 
-            
+
+#15/04/17
+
+11.To check the sites status From the terminal
+
+   <cmd>ping google.com </cmd>
+
+  If site is up, it will return reply msg, otherwise returns the timeout msg
+
+
