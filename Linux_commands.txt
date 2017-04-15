@@ -61,3 +61,6 @@
   If site is up, it will return reply msg, otherwise returns the timeout msg
 
 
+12. To get login name From the Terminal
+
+   <cmd>whoami </cmd>
