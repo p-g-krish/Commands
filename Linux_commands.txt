@@ -64,3 +64,9 @@
 12. To get login name From the Terminal
 
    <cmd>whoami </cmd>
+
+13.To confirm the installation of any application
+
+  Here iam going to check mysql
+
+  <cmd> sudo dpkg -l|grep mysql </cmd>
