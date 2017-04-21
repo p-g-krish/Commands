@@ -70,3 +70,18 @@
   Here iam going to check mysql
 
   <cmd> sudo dpkg -l|grep mysql </cmd>
+
+
+#21/04/17
+
+
+14.To check the installed kernel version
+
+   <cmd>uname -r </cmd>
+
+
+15.To get list of available kernels for updation
+
+  <cmd>aptitude search linux-image </cmd>
+          (or)
+ <cmd>apt search linux-image </cmd>
