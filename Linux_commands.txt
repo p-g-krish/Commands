@@ -85,3 +85,32 @@
   <cmd>aptitude search linux-image </cmd>
           (or)
  <cmd>apt search linux-image </cmd>
+
+16.To the commands we used before,
+  <cmd> history </cmd>
+    This will display the whole command we typed previously.
+
+#22/04/17
+
+17.To list particular file with same extension 
+  
+    <cmd> ls *.txt </cmd>
+          (or)
+    <cmd> ls *.html</cmd>
+    This will display the all files with the extension txt or html.
+
+18. To list particular directory that ends with particular letter.
+  
+    <cmd> ls -d d* </cmd>
+    This will display the directory that ends with the letter d.
+    eg. command,
+        linuxcommand ...etc..
+
+
+19. To list particular directory that starts with particular letter.
+
+    <cmd> ls -d *k </cmd>
+    This will display the directory that starts with letter k.
+    eg.  kgp-pitchbook,
+         kgpdoc,
+         kgpserver ... etc..
