@@ -99,18 +99,22 @@
     <cmd> ls *.html</cmd>
     This will display the all files with the extension txt or html.
 
-18. To list particular directory that ends with particular letter.
+18. To list particular directory that start with particular letter.
   
     <cmd> ls -d d* </cmd>
-    This will display the directory that ends with the letter d.
-    eg. command,
-        linuxcommand ...etc..
+    This will display the directory that start with the letter d.
+    eg. data ,
+        datadir1 datadir2
 
 
-19. To list particular directory that starts with particular letter.
+19. To list particular directory that end with particular letter.
 
     <cmd> ls -d *k </cmd>
-    This will display the directory that starts with letter k.
+    This will display the directory that end with letter k.
     eg.  kgp-pitchbook,
-         kgpdoc,
-         kgpserver ... etc..
+         kgpdock,
+         kgpserverk ... etc..
+
+20.  To list more than one extension at the same time
+
+    <cmd>ls -t *.{jar,jad} </cmd>
