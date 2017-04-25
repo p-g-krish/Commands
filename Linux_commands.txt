@@ -118,3 +118,20 @@
 20.  To list more than one extension at the same time
 
     <cmd>ls -t *.{jar,jad} </cmd>
+
+#25/04/17
+
+21. If condition usage in shell script of command line for checking file exist or not
+
+  <cmd>
+  if [ -d /Users/vahai_mac/myprojects/Zurik/zurik_25-04-17 ]; then
+        cd /Users/vahai_mac/myprojects/Zurik/zurik_25-04-17;
+        pwd;
+    else
+        cd /Users/vahai_mac/myprojects/Zurik/;
+        pwd;
+    fi;
+
+  </cmd>
+   -d = for check the directory exist or not
+ you can able to use -f for checking the file exist state
