@@ -47,7 +47,7 @@
 	Then give the cmd  <cmd> pkill firefox </cmd>
 	Or <cmd> pkill chrome </cmd>
 
-10. touch -->This is used to create an empty file either a .txt or .html file based 			 on extension u gave.
+10. touch -->This is used to create an empty file either a .txt or .html file based on extension u gave.
 				eg.touch one
 				   touch one.txt
 
@@ -118,3 +118,15 @@
 20.  To list more than one extension at the same time
 
     <cmd>ls -t *.{jar,jad} </cmd>
+
+#24/04/17
+
+21. From the list of files if u want search for particular keyword use
+    
+    <cmd> grep -R "message" </cmd>
+    This will search the particular message and list where the message is used from the list of files.
+    eg. grep -R "template";
+
+22. Different cmd used to know the ipaddress of the system,
+      <cmd> ifconfig </cmd>
+      <cmd> ip addr show </cmd>
