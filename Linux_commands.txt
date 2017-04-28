@@ -134,7 +134,8 @@
 
 #25/04/17
 
-23. If condition usage in shell script of command line for checking file exist or not
+
+23. If condition usage in shell script of command line for checking (file|folder) exist or not
 
   <cmd>
   if [ -d /Users/vahai_mac/myprojects/Zurik/zurik_25-04-17 ]; then
@@ -149,3 +150,9 @@
    -d = for check the directory exist or not
  you can able to use -f for checking the file exist state
 
+#28/04/17
+
+
+24.To resolve hostname to an ip address
+
+  <cmd>getent hosts tes.example.com | awk '{ print $1 }' </cmd>
