@@ -130,10 +130,11 @@
 22. Different cmd used to know the ipaddress of the system,
       <cmd> ifconfig </cmd>
       <cmd> ip addr show </cmd>
+      <cmd> hostname -I </cmd>
 
 #25/04/17
 
-21. If condition usage in shell script of command line for checking file exist or not
+23. If condition usage in shell script of command line for checking file exist or not
 
   <cmd>
   if [ -d /Users/vahai_mac/myprojects/Zurik/zurik_25-04-17 ]; then
