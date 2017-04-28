@@ -156,3 +156,16 @@
 24.To resolve hostname to an ip address
 
   <cmd>getent hosts tes.example.com | awk '{ print $1 }' </cmd>
+
+25.To get the particular field element from a file use the following command
+
+     <cmd>awk -F' '  '{print $1}' linuxcommand/Commands/Linux_commands.txt </cmd>
+
+     This will display the element seperated by space.
+     
+     <cmd>awk -Fa  '{print $1}' linuxcommand/Commands/Linux_commands.txt </cmd>
+
+     This will display the element separated by alphabet 'a'.
+
+
+
