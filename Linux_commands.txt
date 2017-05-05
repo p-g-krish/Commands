@@ -198,3 +198,8 @@ The /proc file system stores information about currently running processes on yo
 
        ^ -first letter
        d-to point out directory from ls -l output
+
+
+31.Find Files larger than particular mb or something
+
+  <cmd>find /home -size +100M </cmd>
