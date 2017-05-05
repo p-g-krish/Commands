@@ -130,8 +130,10 @@
 22. Different cmd used to know the ipaddress of the system,
       <cmd> ifconfig </cmd>
       <cmd> ip addr show </cmd>
+      <cmd> hostname -I </cmd>
 
 #25/04/17
+
 
 23. If condition usage in shell script of command line for checking (file|folder) exist or not
 
@@ -155,13 +157,23 @@
 
   <cmd>getent hosts tes.example.com | awk '{ print $1 }' </cmd>
 
+
+25.To get the particular field element from a file use the following command
+
+     <cmd>awk -F' '  '{print $1}' linuxcommand/Commands/Linux_commands.txt </cmd>
+
+     This will display the element seperated by space.
+     <cmd>awk -Fa  '{print $1}' linuxcommand/Commands/Linux_commands.txt </cmd>
+
+     This will display the element separated by alphabet 'a'.
+
 #04/05/17
 
-25.To get list process accessing particular files
+26.To get list process accessing particular files
 
   <cmd>fuser filename </cmd>
 
-26.To get process name using pid
+27.To get process name using pid
 
   <cmd>ps -p urid -o comm= </cmd>
 
@@ -169,14 +181,14 @@
 
 The /proc file system stores information about currently running processes on your system, it contains directories for each process in the name of its pid
 
-27.lspci -tv - Display PCI devices
+28.lspci -tv - Display PCI devices
    lsusb -tv     - Display USB devices
 
-28.Display Hardware info from bios - sudo dmidecode
+29.Display Hardware info from bios - sudo dmidecode
 
 #05/05/17
 
-29.To list the files only from current directory
+30.To list the files only from current directory
 
   <cmd>ls -l|grep -v ^d </cmd>
 
