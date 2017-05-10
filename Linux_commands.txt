@@ -203,3 +203,31 @@ The /proc file system stores information about currently running processes on yo
 31.Find Files larger than particular mb or something
 
   <cmd>find /home -size +100M </cmd>
+
+#06/05/17
+
+32.To split files based on size
+
+  <split> split -b20000 filename </split> mac systax <mac>split -b 1024m Win10_1703_English_x64.iso </mac>
+
+    -b=bytes 
+
+  To split no of chunks
+
+ <split>split -n4 filename </split>
+
+  split as 4 chunks, not work with mac
+
+
+    --> To reassemble files use
+
+       cat filenam* >newname
+
+ very by shasum <cmd>shadum originalfile sourcefile </cmd>
+
+
+#10/05/17
+
+33.To eject external driver from terminal
+
+  <cmd>sudo eject /dev/sda </cmd>
