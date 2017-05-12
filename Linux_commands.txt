@@ -231,3 +231,14 @@ The /proc file system stores information about currently running processes on yo
 33.To eject external driver from terminal
 
   <cmd>sudo eject /dev/sda </cmd>
+
+34.To reboot linux in another method
+
+  <cmd>init 6 </cmd>
+
+
+#11/05/17
+
+35.  below 1000 of uid of user not showing in desktop login 
+  
+   <cmd>sudo adduser username --uid 999 </cmd>
