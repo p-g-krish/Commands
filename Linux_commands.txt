@@ -242,3 +242,11 @@ The /proc file system stores information about currently running processes on yo
 35.  below 1000 of uid of user not showing in desktop login 
   
    <cmd>sudo adduser username --uid 999 </cmd>
+
+
+#20/05/17
+
+36.About ssh files
+
+  known_hosts = its authenticate client authenticate the server
+ authorized_keys= - lets the server authenticate the user
