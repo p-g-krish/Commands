@@ -250,3 +250,36 @@ The /proc file system stores information about currently running processes on yo
 
   known_hosts = its authenticate client authenticate the server
  authorized_keys= - lets the server authenticate the user
+
+36.Create named pipes 
+
+   <cmd>mkfifo anyname </cmd>
+
+to confirm the file is names pipes; use `ls -l`. It list the file starting with `p`
+
+  <ex>prw-rw-r-- 1 vahaimaster vahaimaster          0 May 20 14:15 da </ex>
+
+#24/05/17
+
+37. Explanation about auto-hotplug <interface name>
+
+        Its Start interface when kernel detects a hotplug event from the interface
+
+       <network syntax>
+      allow-hotplug eth0
+     iface eth0 inet dhcp
+       </network syntax>
+      When the Linux kernel detects the physical interface eth0, the allow-hotplug stanza causes ifup to bring up the interface and the iface stanza causes ifup to use DHCP to configure the interface.
+
+#08/06/17
+
+38.To correct type errors in Terminal 
+
+    <cmd>shopt -s cdspell </cmd>
+
+  Ex. if i type cd /hom/username
+
+  It redirect you to cd /home/username
+
+     
+#
