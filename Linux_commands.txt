@@ -281,5 +281,28 @@ to confirm the file is names pipes; use `ls -l`. It list the file starting with 
 
   It redirect you to cd /home/username
 
+#09/06/17
+
+39.Writing file with cat and stdout
+
+    <cmd>cat > filename</cmd>
+
+ Type lovely words and press Ctrl+d 
+
+40.To see the stdout of running process
+
+  <cmd> readlink -f /proc/yourprocesspid/fd/1 </cmd>
+  
+
+41.Find what process using particular file
+
+  <cmd>lsof filename</cmd>   
      
-#
+#10/06/17
+
+42.To delete multiple folder using regular expression
+
+   <cmd>rm -rfv start_{1..31}-{01..05}-17-* </cmd>
+
+
+
