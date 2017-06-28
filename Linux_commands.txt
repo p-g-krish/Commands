@@ -304,5 +304,32 @@ to confirm the file is names pipes; use `ls -l`. It list the file starting with 
 
    <cmd>rm -rfv start_{1..31}-{01..05}-17-* </cmd>
 
+#22/06/17
+
+43.To add alias using Terminal 
+
+  <cmd>echo 'alias test3="ping"'>>~/.bash_profile</cmd>
+
+  Then use <cmd>echo 'source ~/.bash_profile </cmd> - For immediate effect
+
+44.list the bash function defined inside bash shell
+
+  <cmd>typeset -f or declare -f </cmd>list all functions source
+  <cmd>typeset -F or declare -F </cmd>list all function name only
 
 
+
+
+#27/06/17
+
+45.Get python pid value using awk
+
+ <cmd>ps -elf|grep python|awk '{ print $4 }' </cmd>
+
+
+#28/06/17
+
+
+46.Bash if statement [: missing `]' 
+
+  Sol:Spaces needed before ]. I give spaces before the ].Problem solved
