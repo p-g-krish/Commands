@@ -334,5 +334,6 @@ to confirm the file is names pipes; use `ls -l`. It list the file starting with 
 
   Sol:Spaces needed before ]. I give spaces before the ].Problem solved
 
+adf
 
 
